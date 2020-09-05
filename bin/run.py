@@ -16,6 +16,6 @@ if __name__ == '__main__':
     parser.add_argument('-p', '--password', help='password', required=True)
     args = parser.parse_args()
 
-    password_slat = Config.get('slat', '') + args.password
+    password_slat = Config.get('salt', '') + args.password
 
     print(hashlib.md5(password_slat.encode()).hexdigest())
