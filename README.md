@@ -19,9 +19,9 @@ $ cp config.json.example config.json
 
 ## Usage
 
-Execute `run.py` After configuring slat:
+Execute `run.py` After configuring salt:
 
 ```
-$ ./bin/run.py -p $your_password
+$ ./bin/run.py -p "$your_password"
 ```
 
